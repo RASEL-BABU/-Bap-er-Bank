@@ -6,6 +6,8 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
     const newdepositeAmountString=Deposite.value;
     const  newdeposite=parseFloat(newdepositeAmountString);
 
+    
+
 
 
     const depositeTotalAmount=document.getElementById('deposite-total');
@@ -13,6 +15,7 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
     const preTotalAmountString=depositeTotalAmount.innerText;
 
     const preTotalAmount=parseFloat(preTotalAmountString);
+  
 
     const  totalDepoSite=preTotalAmount+ newdeposite;
 
